@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-tutorial",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js tutorial",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:soen487-w18-10/test.git"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
