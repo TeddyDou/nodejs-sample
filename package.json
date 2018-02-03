@@ -11,6 +11,7 @@
     "url": "git@bitbucket.org:soen487-w18-10/test.git"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "ejs": "^2.5.7"
   }
 }

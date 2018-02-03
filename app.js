@@ -2,8 +2,13 @@ var express = require('express');
 var app = express();
 var http = require('http').Server(app);
 
+// Use template ejs and directory assets
+app.use(express.static('assets'));
+app.set('view engine', 'ejs');
+
+
 app.get('/', function (req, res) {
-    res.send("My first Node.js application");
+    res.render('index', { title: 'Node.js Tutorial' });
 });
 
 app.get('/about.html', function (req, res) {
