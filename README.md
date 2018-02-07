@@ -1,29 +1,26 @@
-# README #
+# Node.js Tutorial #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This is a simple tutorial that shows to load an HTML view using boostrap and some basic post and get requests
 
-### What is this repository for? ###
+### Requirements ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Node.js 6+
+* nodemon (Optional for dev environment)
 
-### How do I get set up? ###
+### Installation ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+    npm install
 
-### Contribution guidelines ###
+### Usage ###
 
-* Writing tests
-* Code review
-* Other guidelines
+On a dev environment with auto-restart:
 
-### Who do I talk to? ###
+    nodemon app.js
 
-* Repo owner or admin
-* Other community or team contact
+On a production environment:
+
+    node app.js
+
+For registration use a service like postman to send the fields (user, password) through a post request to http://localhost:8000/register
+
+For user information you can use curl or a browser to browse http://localhost:8000/user/USER_ID where user id is an integer starting from 1
