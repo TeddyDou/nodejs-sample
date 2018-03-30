@@ -21,6 +21,6 @@ On a production environment:
 
     node app.js
 
-For registration use a service like postman to send the fields (user, password) through a post request to http://localhost:8000/register
+For registration use a service like postman to send the fields (user, password) through a post request to http://localhost:3000/register
 
-For user information you can use curl or a browser to browse http://localhost:8000/user/USER_ID where user id is an integer starting from 1
+For user information you can use curl or a browser to browse http://localhost:3000/user/USER_ID where user id is an integer starting from 1
