@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Configuration variables
 var user = [];
 var id = 0;
-var port = 8000;
+var port = 3000;
 
 /**
  * Main page using boostrap
